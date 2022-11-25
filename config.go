@@ -33,6 +33,8 @@ type bucketConfig struct {
 	S3HttpTimeoutSecs int64
 	// EnableTraceInterceptor enable otel trace (only for s3)
 	EnableTraceInterceptor bool
+	// EnableMetricInterceptor enable prom metrics
+	EnableMetricInterceptor bool
 	// EnableClientTrace
 	EnableClientTrace bool
 }
